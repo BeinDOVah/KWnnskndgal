@@ -1,6 +1,4 @@
---[[ tape program, provides basic tape modification and access tools
-Authors: gamax92, Bizzycola, Vexatos
-]]
+
 local args = { ... }
 local tape = peripheral.find("tape_drive")
 if not tape then
